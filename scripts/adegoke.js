@@ -1,11 +1,5 @@
-const details = {
-    fullname: "Adegoke Bestman",
-    email: "Adegokebestman@gmail.com",
-    intern_id: "HNG-01590",
-    language: "Javascript"
-}
-
-let message = "Hello World!, my name is " + details.fullname + " with HNG ID of " + details.intern_id + " and email " + details.email + ", using " + details.language 
-+ " programing language for HNG Task 2";
-
-console.log(message);
+const fullname =  "Adegoke Bestman";
+const language="Javascript" ;
+ const internid= "HNG-01590";
+ const email= "Adegokebestman@gmail.com";
+console.log(`Hello World, this is ${fullname} with HNGi7 ID ${internid} and email ${email} using ${language} for stage 2 task`)
